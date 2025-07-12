@@ -8,8 +8,9 @@ const Footer: FC = () => {
         <span className="text-secondary-text-light text-[0.6875rem]">
           {`Created with `}
           <img className="inline" src="/images/footer/heart.svg" alt="heart" />
-          {' by '}
+          {' to '}
           <b className="text-primary-text-dark">Gromcode</b>
+          {' by Oleksandr Siedmoi'}
         </span>
         <span className="text-secondary-text-light text-[0.6875rem]">© AppStarter, 2025</span>
       </div>

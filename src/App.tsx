@@ -1,6 +1,6 @@
 import type { FC } from 'react';
-import Layout from '@layout/Layout';
-import HeadLine from '@features/HeadLine/HeadLine';
+import Layout from '@layout/index';
+import HeadLine from '@features/HeadLine';
 import Timers from '@features/Timers';
 
 const App: FC = () => {
