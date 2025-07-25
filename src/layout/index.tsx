@@ -1,6 +1,6 @@
-import { type FC } from 'react';
 import Header from '@features/Header';
 import Footer from '@features/Footer';
+import type { FC } from 'react';
 
 type LayoutProps = {
   children: React.ReactNode;

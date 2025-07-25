@@ -7,9 +7,6 @@ body {
 }
 
 @theme {
-  --font-nunito: 'Nunito Sans', sans-serif;
-  --font-arial: Arial, Helvetica, sans-serif;
-
   --color-primary-text-light: #ffffff;
   --color-primary-text-dark: #282b31;
   --color-secondary-text: #676c75;
@@ -19,26 +16,19 @@ body {
   --color-body-bg: #e5e5e5;
   --color-accent-bg: #ff487626;
   --color-border-dark: #e7e8ea;
+  --color-border-focus: #469af4;
 }
 
 @layer components {
-  .header__link {
-    @apply text-[0.9375rem] hover:underline;
-  }
-
   .button {
-    @apply font-arial text-primary-text-dark bg-primary-bg h-[50px] cursor-pointer rounded-md text-[1.0625rem]/5 font-semibold tracking-[1px] shadow-[0_6px_12px_#282b3114] hover:scale-[1.02];
+    @apply text-primary-text-dark bg-primary-bg h-[50px] cursor-pointer rounded-md pt-[1px] text-[1.0625rem]/[1em] font-bold tracking-[1px] hover:scale-[1.02];
   }
 
   .button_gradient {
-    @apply text-primary-text-light min-w-[167px] bg-linear-[135deg,#ff8e64,#ffe641] font-normal;
+    @apply text-primary-text-light bg-linear-[135deg,#ff8e64_0%,#ffe641_100%];
   }
 
   .button__timer {
-    @apply flex h-[50px] w-[50px] cursor-pointer items-center justify-center rounded-full border-none;
-  }
-
-  .footer__social-ref {
-    @apply border-r-border-dark flex h-10 w-[39.3px] items-center justify-center border-r-[0.5px];
+    @apply flex h-[50px] w-[50px] cursor-pointer items-center justify-center rounded-full border-none hover:scale-[1.02];
   }
 }
