@@ -1,4 +1,4 @@
-import TimersControl from '@features/Timers/components/TimersControl';
+import Control from '@features/Timers/components/Control';
 import type { FC } from 'react';
 
 const Timers: FC = () => {
@@ -11,7 +11,7 @@ const Timers: FC = () => {
         This sounded nonsense to Alice, so she said nothing, but set off at once toward the Red
         Queen. To her surprise, she lost sight of her in a moment.
       </p>
-      <TimersControl />
+      <Control />
     </section>
   );
 };
